@@ -183,9 +183,6 @@ const styles = StyleSheet.create({
     fontSize: 60,
     textAlign: 'center'
   },
-  great: {
-    fontSize: 60
-  },
   bottmContainer: {
     //height: 60,
     flexDirection: 'row',
