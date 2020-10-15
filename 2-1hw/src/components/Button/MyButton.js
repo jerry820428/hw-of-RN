@@ -7,7 +7,7 @@ import outerStyle from '../style/style'
 function MyGame(gear) {
   return (
     <View style={outerStyle.container}>
-      <Text style={{ fontSize: 25 }}>{gear.comment}</Text>
+      <Text style={{ fontSize: 25, color: gear.commentColor }}>{gear.comment}</Text>
 
       <Text style={outerStyle.maintext}>{gear.wish}</Text>
       <Text> {gear.sumValue}</Text>

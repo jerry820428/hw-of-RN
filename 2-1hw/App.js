@@ -36,6 +36,7 @@ export default function App() {
         wish={'我的肌肉量'}
         comment={rank}
         sumValue={count}
+        commentColor={'red'}
         addValue1={addValueRange[0]}
         addValue2={addValueRange[1]}
         addValue3={addValueRange[2]}
