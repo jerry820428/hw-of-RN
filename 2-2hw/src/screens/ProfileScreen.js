@@ -28,7 +28,6 @@ const roleData = [{ name: 'Gerard Way', pic: 'https://lh3.googleusercontent.com/
 const songList = [{ songName: 'Welcome To The Black Parade', url: 'https://www.youtube.com/watch?v=RRKJiM9Njr8' },
 { songName: " I Don't Love You", url: 'https://www.youtube.com/watch?v=zTFBJgnNgU4' },
 { songName: 'The Ghost Of You', url: 'https://www.youtube.com/watch?v=uCUpvTMis-Y' },
-
 ]
 
 export default function App(props) {
@@ -107,7 +106,6 @@ export default function App(props) {
                 )}
             </View>
 
-
             <TouchableOpacity
                 title=''
                 onPress={() => props.navigation.push('Notification')}
@@ -140,6 +138,5 @@ const styles = StyleSheet.create({
         height: windowHeight,
         width: windowWidth,
         position: 'absolute',
-
     },
 });

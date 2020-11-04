@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, Button, Image, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, Image, TouchableOpacity } from 'react-native';
 import outerStyle from './styles/style'
 
 

@@ -1,6 +1,6 @@
 
-import React, { useState } from 'react';
-import { StyleSheet, Text, View, Button, TextInput, Dimensions, Image, TouchableOpacity } from 'react-native';
+import React from 'react';
+import { StyleSheet, Text, View, Dimensions, Image, TouchableOpacity } from 'react-native';
 import RoleDetail from '../component/roledetail';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
